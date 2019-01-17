@@ -72,11 +72,7 @@ $this->registerJsFile("@web/js/script.js");
 </div><!--company_profile_info end-->
 </div>
 <?php } ?>
-<?php
-echo LinkPager::widget([
-    'pagination'=>$dataProviders->pagination,
-]);
-?>
+
 
 </div>
 </div><!--companies-list end-->
